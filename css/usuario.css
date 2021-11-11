@@ -3,7 +3,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(/img/Fundo.jpeg) no-repeat center fixed;
+    background: url(../img/Fundo.jpeg) no-repeat center fixed;
     background-size: cover;
     background-position:  center;
     overflow-x: hidden;
@@ -36,11 +36,19 @@ body{
     background-color: #C4C4C4;
     
 }
-
+.texto-link{
+    margin: 2% 20%;
+}
+.texto-link a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #000;
+    margin: -5% 3%;
+} 
 
 @media screen and (max-width: 760px) {
     body {
-    background-image: url(/img/Fundo.jpeg);
+    background-image: url(../img/Fundo.jpeg);
     background-repeat: no-repeat;
     background-size: 180vh;
     overflow-y: hidden;

@@ -3,7 +3,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(/img/Fundo.jpeg) no-repeat center fixed;
+    background: url(../img/Fundo.jpeg) no-repeat center fixed;
     background-size: cover;
     background-position:  center;
     overflow-x: hidden;
@@ -22,7 +22,7 @@ body{
     font-family: 'Anton', sans-serif;
     font-size: 2rem;
     margin: 3% 45%;
-}
+}1
 .btn{
     width: 40%;
     margin-left: 28%;

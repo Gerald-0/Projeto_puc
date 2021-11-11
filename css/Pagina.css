@@ -10,6 +10,18 @@
     color: #000000;
     margin-right: 20px;
 }
+.anuncio{
+    animation: go-back 1s infinite alternate;
+}
+@keyframes go-back {
+    from {
+      transform: translateX(10px);
+    }
+    to {
+      transform: translateY(20px);
+    }
+  }
+
 .card{
     margin-top: 90px;
 }
@@ -17,8 +29,11 @@
     position: absolute;
     width: 1900px;
     height: 97px;
-    top:290%;
+    top:362%;
     background: #202B25;
+}
+.mapa{
+    border-radius: 10%;
 }
 
 
