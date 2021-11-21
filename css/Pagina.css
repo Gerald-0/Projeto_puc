@@ -3,25 +3,16 @@
 *{     
      font-family: 'Poppins', sans-serif;
  }
- .navbar{
-    background-color: #ed6e1479;
+
+ .img-menu{
+   margin: -21% 23%;
+   position: absolute;
+   z-index: -9;
  }
 .menu a{
     color: #000000;
     margin-right: 20px;
 }
-.anuncio{
-    animation: go-back 1s infinite alternate;
-}
-@keyframes go-back {
-    from {
-      transform: translateX(10px);
-    }
-    to {
-      transform: translateY(20px);
-    }
-  }
-
 .card{
     margin-top: 90px;
 }

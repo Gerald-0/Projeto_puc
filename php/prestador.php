@@ -19,7 +19,7 @@ $cnpj=$_POST['cnpj'];
 
 
 
-$sql = "INSERT INTO tbprestador  (nome_do_comercio,servico_do_comercio,cnpj)
+$sql = "INSERT INTO tbprestador  (nome,data_nascimento,cpf,email,nome_do_comercio,servico_do_comercio,cnpj)
 VALUES ('" .  $nome . "','".$data_nascimento . "','" .  $cpf . "','" . $email . "','".   $nome_comercio . "','".$servico_comercio . "','" .  $cnpj . "')"; 
 
 $sql = $conn->prepare($sql);
