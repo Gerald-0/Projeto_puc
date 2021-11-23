@@ -1,3 +1,14 @@
+<?php 
+
+if (isset($_GET['erro'])) 
+{ if ($_GET['erro'] == "dadoserrado") 
+    { 
+        echo  "<script>alert('Email ou senha inválidos!');</script>";
+    }
+}
+
+
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -20,19 +31,23 @@
             <div class="text">
             <p>Bem vindo</p>
             <H1>Faça login na sua conta</H1>
-            <form class="form">
+            <form action="login.php" class="form" method="post">
                 <p>E-mail</p>
-                <input type="Email">
+                <input type="Email" name="email">
                 <p>Senha</p>
-                <input type="password" >
+                <input type="password" name="password">
+    
+                <button type="submit" class="btn-1">Entrar</button>
+               
+             
             </form>
             <div id="relembre">
             <input class="radio" type="radio" name="theradio" id="radio1">
             <label for="radio1">Lembrar de mim</label>
             <a href="#">Esqueceu sua senha?</a>
             </div>
-            <button class="btn-1">Entrar</button>
-            <button class="btn-2"><img src="../img/iconfinder_Google_1298745 1.png" >Ou faça login com o Google</button>  
+         
+         
             </div>
             <div class="cadastro">
                 <p>Não tem uma conta ? </p>
