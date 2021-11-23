@@ -1,11 +1,17 @@
-<?php include("menu.php") ?>
+<?php 
+include("menu.php");
+session_start();
+
+$usuario = $_SESSION["USUARIO"];
+
+?>
 
 <div class="container">
     <div class="img-menu">
         <img src="../img/Rectangle 23.png" alt="" width="900px">
     </div>
     <div class="texto-menu" style="margin-top: 17%;">
-        <h1>Bem vindo </h1>
+        <h1>Bem vindo <?php echo Empty($usuario) ?    "" : $usuario["nome"] ; ?> </h1>
         <p class="card-text" > Freedom does not mean we have to change all our situations. We do not have to turn our 
         <br>life or situations upside down to become free because one situation is not better than some other situation;
         <br>don’t ever believe that. It is just a choice.</p>
