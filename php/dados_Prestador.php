@@ -165,5 +165,4 @@ if (isset($_GET['id'])) {
   </script>
 </body>
 <?php }
-header('location:action_dados_P.php'); ?>
 </html>
