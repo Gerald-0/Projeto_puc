@@ -8,7 +8,7 @@ $usuario = $_SESSION["USUARIO"];
 
 <div class="container">
     <div class="img-menu">
-        <img src="../img/Rectangle 23.png" alt="" width="900px">
+        <img src="../img/Rectangle 23 (1).png" alt="" width="900px">
     </div>
     <div class="texto-menu" style="margin-top: 17%;">
         <h1>Bem vindo <?php echo Empty($usuario) ?    "" : $usuario["nome"] ; ?> </h1>
