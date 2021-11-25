@@ -13,7 +13,7 @@ include('./config.php');
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Checkout example for Bootstrap</title>
+  <title>Dados</title>
 
   <!-- <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico"> -->
 
