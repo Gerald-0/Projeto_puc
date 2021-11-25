@@ -13,7 +13,7 @@ include('./config.php');
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Dados</title>
+  <title>Checkout example for Bootstrap</title>
 
   <!-- <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico"> -->
 
@@ -165,4 +165,5 @@ if (isset($_GET['id'])) {
   </script>
 </body>
 <?php }
+?>
 </html>
