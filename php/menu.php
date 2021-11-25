@@ -22,8 +22,8 @@
             <li class="nav-item">
                 <a class="nav-link" href="../php/contato.php">CONTATOS</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">CARROS</a>
+             <li class="nav-item">
+                <a class="nav-link" href="../php/dados_Prestador.php">INFORMAÇÕES</a>
             </li>
         </ul>
     </div>
