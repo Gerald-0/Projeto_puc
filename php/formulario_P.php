@@ -27,6 +27,9 @@
             <label class="form-label"></label>
             <input type="text" class="form-control mb-lg-3 " name="cnpj" placeholder="CNPJ" require>
           </div> 
+          <label class="form-label"></label>
+          <input type="text" class="form-control mb-lg-3 " name="valor_servico" placeholder="VALOR DE SERVIÇO" require>
+          </div> 
           <button type="submit" class="btn btn">ENTRAR</button>
       </form>
 </body>
