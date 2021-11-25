@@ -14,11 +14,11 @@ $result = $sth->fetchAll(PDO::FETCH_ASSOC);
 if  (Empty ($result)){
   
     unset($_SESSION["USUARIO"]);    
-    header("location: logar.php?erro=dadoserrado");
+    header("location: logar.php?");
 
 }else { 
     $_SESSION["USUARIO"]= $result[0] ;   
-    header("location: index.php?erro=dadoserrado");
+    header("location: index.php?dadoserrado");
 }
 
 
